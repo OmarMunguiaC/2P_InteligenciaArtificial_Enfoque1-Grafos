@@ -42,3 +42,8 @@ while cola: #Mientras haya vertices sin revisar, entonces;
 
 print()
 os.system("pause")
+
+#Este programa busca vertices en el nodo principal y los imprime. Luego, cambia el vertice al primer
+#valor dentro del nodo y lo selecciona como su vertice actual, vuelve a anotar todos los vertices que no hayan estado
+#y luego regresa al nodo principal para buscar el siguiente vertice. En caso de haber terminado el nodo principal,
+#revisa los vertices siguientes dentro del segundo nodo que se busco.
